@@ -1,0 +1,18 @@
+.start-guide{background:white;border:1px solid #dcd7ec;border-radius:14px;margin:0 0 24px;padding:clamp(16px,3vw,28px);color:#302a45}
+.start-guide header,.guide-actions,.step-body h3,.step-body small{display:flex;align-items:center;gap:10px}
+.start-guide header{justify-content:space-between;align-items:flex-start}
+.start-guide h2{font-size:20px}.start-guide h2:focus{outline:none}
+.start-guide p{font-size:14px;color:#625b73;line-height:1.75;margin:5px 0 12px}
+.guide-count{white-space:nowrap;color:#514591;background:#f1eefb;border-radius:6px;padding:5px 8px;font-size:12px;font-weight:600}
+.start-guide progress{display:block;width:100%;height:6px;accent-color:#5b45d9;margin:4px 0 18px;border:none;border-radius:8px;overflow:hidden;background:#eeecf6}
+.start-guide progress::-webkit-progress-bar{background:#eeecf6}.start-guide progress::-webkit-progress-value{background:#5b45d9}
+.start-guide ol{padding:0;margin:0;list-style:none}.start-guide li{display:flex;align-items:flex-start;gap:12px;padding:10px 12px;border-radius:8px}
+.start-guide li.current{background:#f5f3ff;border:1px solid #dcd5fb;padding:15px 12px}
+.step-index{flex:none;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;background:#eeeef3;color:#625e70;font-weight:650;font-size:13px}
+.current .step-index{background:#5644c9;color:white}.finished .step-index{background:#dfefe8;color:#29614f}
+.step-body{flex:1;min-width:0}.step-body h3{font-size:15px;line-height:26px;flex-wrap:wrap;gap:6px}
+.step-body small{font-size:11px;color:#256b51;gap:2px}.step-body .button,.guide-actions .button{font-size:14px;min-height:44px}
+.start-guide form{max-width:560px}.start-guide form label{display:grid;gap:6px;font-size:14px;font-weight:550;margin:12px 0}
+.guide-pair{display:grid;grid-template-columns:1fr 1fr;gap:12px}.guide-actions{flex-wrap:wrap;margin-top:13px}
+.start-guide [role=alert]{color:#a42b39;font-weight:550}
+@media(max-width:500px){.start-guide header{gap:6px}.start-guide h2{font-size:18px}.start-guide li{padding-left:4px;gap:8px}.start-guide li.current{padding:12px 8px}.start-guide .guide-pair{grid-template-columns:1fr}.guide-pair label+label{margin-top:0}.step-body input,.step-body select{width:100%}}
