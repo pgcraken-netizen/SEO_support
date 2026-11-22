@@ -1,0 +1,13 @@
+.signal-good{--signal:#147454;--wash:#e7f6ef}
+.signal-near{--signal:#936100;--wash:#fff3cd}
+.signal-poor{--signal:#b03e45;--wash:#fff0f0}
+.signal-unknown{--signal:#686879;--wash:#f0eff3}
+.indicator-label{display:inline-flex;align-items:center;gap:.4em;color:var(--signal);background:var(--wash);padding:4px 9px;border-radius:5px;font-weight:600;font-size:12px;white-space:nowrap}
+.indicator-label::before,.distribution-legend i{content:'';width:7px;height:7px;background:var(--signal);border-radius:50%}
+.benchmark-row{margin:16px 0}.benchmark-heading,.gauge-caption,.distribution-legend{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}.benchmark-heading strong,.distribution h2{font-size:14px}
+.gauge,.distribution-track{background:#eeedf3;height:10px;border-radius:8px;position:relative;margin:9px 2px}
+.gauge-value,.distribution-track i,.distribution-legend i{display:block;height:100%;background:var(--signal)}.gauge-value{border-radius:8px}.benchmark-marker{position:absolute;width:3px;height:18px;top:-4px;border-radius:2px;background:#40384f;box-shadow:0 0 0 1px white;transform:translateX(-50%)}
+.gauge-caption,.distribution-legend,.thresholds,.rank-rule{font-size:12px;color:#665d73;line-height:1.7}
+.thresholds summary{cursor:pointer;padding:5px 0}.thresholds p,.rank-rule{margin:5px 0 10px}
+.distribution{padding:20px 22px;border-bottom:1px solid #eceaf0}.distribution-track{display:flex;overflow:hidden;margin:14px 0}.distribution-legend{justify-content:flex-start;gap:8px 18px}.distribution-legend span{display:flex;gap:6px;align-items:center}.distribution-legend i{height:8px;width:8px}
+.rank-status{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:8px 0}.table-rank .indicator-label{display:table;margin-top:4px}.section-title select{width:auto}
